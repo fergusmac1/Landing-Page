@@ -16,12 +16,8 @@
     background-color: #3882f6;
   }
 
- 
-
  .first{
-    display: flex;
     border: solid 1px white;
-    flex-direction: row;
     justify-content: space-between;
     flex-basis: 850px;
     padding: 0 200px;
