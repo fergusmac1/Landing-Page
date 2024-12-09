@@ -2,4 +2,26 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #1f2937
   }
+
+  button{
+    color: white;
+    background-color: #3882f6;
+  }
+
+  .one{
+    display: flex;
+    flex-direction: row;
+  }
+
+ .first{
+    display: flex;
+    border: solid 1px white;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 850px;
+    padding: 0 200px;
+    color: white; ;
+  }
+
