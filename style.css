@@ -19,9 +19,8 @@
 
   div{
     display: flex;
-    
-    background-color: #1f2937;
-    box-sizing: border-box;
+    border: solid 1px white;
+    box-sizing: content-box;
   }
 
   .one{
@@ -30,6 +29,7 @@
     width: 100%;
     font-size: 24px;
     color: #f9faf8;
+    background-color: #1f2937
   }
 
   .two{
@@ -39,6 +39,7 @@
     padding: 0 50px;
     color: #e5e7eb;
     justify-content: space-between;
+    background-color: #1f2937
   }
 
   .three{
@@ -47,13 +48,19 @@
     height: 400px;
     width: 50%;
     flex-direction: column;
+    background-color: #1f2937
   }
 
   .four{
-    height: 290px;
+    height: 378px;
     width: 100%;
     justify-content: center;
     padding: 10px 0;
+    background-color: #1f2937
+  }
+
+  img{
+    height: 300px;
   }
 
   .three, h1{
@@ -62,22 +69,52 @@
     color: #f9faf8;
   }
 
-  .three, p{
+  p{
     font-size: 18px;
     color: #e5e7eb;
   }
 
+  .info{
+    display: block;
+  }
+
   .five{
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+  }
+  .square{
+    height: 200px;
+    width: 200px;
+  }
+
+  .six{
+    justify-content: center;
+    border: 1px solid black;
     height: 200px;
     width: 100%;
   }
 
-  .six{
-    border: 1px solid white;
+  .seven{
+    display: flex;
+    border: 1px solid black;
     height: 200px;
     width: 100%;
   }
+
+  .eight{
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+
+  }
+
+  
+  
 
   
 
