@@ -89,7 +89,7 @@
   }
   .square{
     height: 200px;
-    width: 200px;
+    width: 240px;
   }
 
   .six{
@@ -101,17 +101,41 @@
 
   .seven{
     display: flex;
+    padding: 5px 0;
+    width: 100%;
     border: 1px solid black;
     height: 200px;
+  }
+
+  .seven div{
+    margin: 25px;
+    border: solid 1px black;
+    height: 100px;
+    flex: 1;
+  }
+
+  .nine{
+    align-items: center;
+    justify-content: center;
+    height: 190px;
     width: 100%;
   }
 
-  .eight{
-    border: 1px solid black;
-    height: 200px;
-    width: 100%;
-
+  .nine p{
+    color: black;
+    font-size: 36px;
+    padding: 0 200px;
   }
+
+  .ten{
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+    width: 100%;
+  }
+
+
+  
 
   
   
