@@ -20,7 +20,6 @@
   div{
     display: flex;
     border: 1px solid white;
-    height: 200px;
     background-color: #1f2937;
     box-sizing: border-box;
   }
@@ -45,17 +44,31 @@
   .three{
     box-sizing: border-box;
     padding: 0 0 0 150px;
-    height: 200px;
-    width: 100%;
-    color: white;
+    height: 400px;
+    width: 50%;
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .four{
-    height: 200px;
+    height: 400px;
     width: 100%;
+    justify-content: center;
+    padding: 10px 0;
   }
+
+  .three, h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+
+  .three, p{
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  
+
 
   
 
